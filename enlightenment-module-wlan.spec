@@ -1,7 +1,7 @@
 %define		_module_name	wlan
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
-Summary(pl):	Modu³ Enlightenmenta DR17: %{_module_name}
+Summary(pl.UTF-8):   ModuÅ‚ Enlightenmenta DR17: %{_module_name}
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.1
 Release:	0.%{_snap}.1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Wlan device monitor.
 
-%description -l pl
-Monitor urz±dzeñ wlan (sieci bezprzewodowych).
+%description -l pl.UTF-8
+Monitor urzÄ…dzeÅ„ wlan (sieci bezprzewodowych).
 
 %prep
 %setup -q -n %{_module_name}
